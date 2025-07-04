@@ -88,7 +88,8 @@ if uploaded_file:
         "Missing Skills": ", ".join(matched[0]["Missing Skills"])
     }
     # Load existing CSV or create new one
-    csv_path = "../data/resume_results.csv"
+    os.makedirs("output",exist_ok=True)
+    csv_path = "output/resume_results.csv"
     if os.path.exists(csv_path):
         df = pd.read_csv(csv_path)
         df = pd.concat([df, pd.DataFrame([save_data])], ignore_index=True)
