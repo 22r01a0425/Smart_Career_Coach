@@ -45,3 +45,5 @@ streamlit run src/app.py
 Krithika Gattu (22R01A0425)
 
 
+## 🚀 Live Demo
+👉 [Try the App on Streamlit](https://smartcareercoach-3tbfbummxmpkbpwpbkm8ik.streamlit.app/)
