@@ -1,52 +1,79 @@
-# 🧠 Smart Career Coach
+# 🚀 Smart Career Coach
 
-A resume analyzer and career guidance web app built using **Streamlit**, **Python**, and a touch of **Generative AI**.
+An intelligent AI-powered web app that helps students and job seekers align their resume with the most relevant job roles, suggests missing skills, and recommends courses — all through a clean Streamlit interface.
 
-This tool helps users:
-- 📄 Extract key information from resumes (skills, email, phone).
-- 🔍 Match their skills to suitable job roles from a predefined dataset.
-- ❌ Identify missing skills for target roles.
-- 📚 Get learning resource recommendations (powered by Gen AI).
+## 🔍 Features
 
----
+- 📄 Resume Upload & Parsing (PDF)
+- 🎯 Job Role Matching using AI
+- 🚫 Missing Skills Detection
+- 📚 Course Recommendations
+- 💡 Generative AI for Resume Line Suggestions
+- 📊 Simple, interactive Streamlit UI
 
-## 🚀 Features
+## 🖼 Demo
 
-- Upload your **PDF resume**.
-- Automatically extract:
-  - ✉️ Email ID
-  - 📞 Phone number
-  - 🛠 Skills
-- Match with top job roles based on skill similarity.
-- Display missing skills and recommend learning resources.
-- Saves the analysis to a CSV file for tracking.
+[![Open in Streamlit](https://smartcareercoach-22r01a0425.streamlit.app/)
 
----
+## 📁 Folder Structure
 
-## 🗂 Project Structure
-
-Smart_Career_Coach/
+smart_career_coach/
+│
+├── .streamlit/
+│   └── config.toml              # Streamlit app settings
 │
 ├── src/
-│ ├── app.py # Main Streamlit app
-│ ├── test_openai_env.py # Optional: test OpenAI key
-│ └── data/
-│ └── job_roles.csv # CSV with job roles and required skills
+│   ├── app.py                   # Main Streamlit app code
+│   └── data/
+│       ├── job_roles.csv        # Job role to skill mapping
+│       └── resume_results.csv   # Parsed resume data (optional / generated)
 │
-├── .gitignore
-├── .env # Contains OpenAI API key (DO NOT COMMIT)
-├── README.md
-└── requirements.txt
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project documentation
+└── LICENSE                      # License file (optional)
+
+
+🧠 Tech Stack
+
+Python
+
+Streamlit
+
+Pandas
+
+Scikit-learn
+
+PyPDF2
+
+OpenAI API (for Generative AI tasks)
+
+✨ Future Improvements
+User authentication & login
+
+Database for saving user history
+
+Advanced NLP for resume understanding
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/smart_career_coach.git
+cd smart_career_coach
+pip install -r requirements.txt
+streamlit run src/app.py
 
 
 ---
 
-## 🧠 Technologies Used
+## 🏁 Next Steps
 
-- **Python 3.10+**
-- **Streamlit** – for building the web app
-- **PyPDF2** – to extract resume content
-- **Pandas** – for data processing
-- **OpenAI API** – for course recommendations (optional)
+- ✅ Add this `README.md` to your root folder
+- ✅ Commit and push to GitHub
+- ✅ Run `pip freeze > requirements.txt` to lock exact versions (optional)
 
----
+Would you like me to:
+- Generate a cool badge section?
+- Add your LinkedIn and GitHub to the footer?
+- Suggest course APIs to use for course recommendations?
+
+Let me know and I’ll update it!
