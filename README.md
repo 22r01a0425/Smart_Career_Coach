@@ -13,7 +13,7 @@ An intelligent AI-powered web app that helps students and job seekers align thei
 
 ## 🖼 Demo
 
-[![Open in Streamlit](https://smartcareercoach-22r01a0425.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smartcareercoach-3tbfbummxmpkbpwpbkm8ik.streamlit.app/)
 
 ## 📁 Folder Structure
 
