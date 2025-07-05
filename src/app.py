@@ -1,8 +1,13 @@
 from dotenv import load_dotenv
 import os
-import openai
+import openai  # ✅ Make sure this is above openai.api_key
+
+# Load variables from .env
 load_dotenv()
+
+# Get API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 
 import streamlit as st
@@ -108,6 +113,8 @@ if uploaded_file:
         "Missing Skills": ", ".join(matched[0]["Missing Skills"])
     }
     # Load existing CSV or create new one
+    os.makedirs("../data", exist_ok=True)
+
     csv_path = "../data/resume_results.csv"
     if os.path.exists(csv_path):
         df = pd.read_csv(csv_path)
