@@ -24,7 +24,7 @@ st.title("📤 Upload Your Resume - Smart Career Coach")
 
 # Load job roles
 job_roles_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'job_roles.csv')
-job_roles_df = pd.read_csv("src/data/job_roles.csv")
+job_roles_df = pd.read_csv("data/job_roles.csv")
 
 
 # Build known skills list from CSV
