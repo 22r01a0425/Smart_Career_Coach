@@ -10,7 +10,7 @@ import io
 
 # --- Load API Key ---
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 if not openai.api_key:
     st.warning("⚠️ OpenAI API key not found. Please set it in the `.env` file.")
 
