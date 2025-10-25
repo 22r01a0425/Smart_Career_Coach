@@ -65,16 +65,3 @@ streamlit run src/app.py
 
 
 ---
-
-## 🏁 Next Steps
-
-- ✅ Add this `README.md` to your root folder
-- ✅ Commit and push to GitHub
-- ✅ Run `pip freeze > requirements.txt` to lock exact versions (optional)
-
-Would you like me to:
-- Generate a cool badge section?
-- Add your LinkedIn and GitHub to the footer?
-- Suggest course APIs to use for course recommendations?
-
-Let me know and I’ll update it!
