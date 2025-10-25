@@ -59,10 +59,6 @@ Database for saving user history
 
 Advanced NLP for resume understanding
 
-## 📄 License
-
-This project is licensed under the [MIT License](./LICENSE).
-
 ## 📦 Installation
 
 ```bash
@@ -79,6 +75,7 @@ streamlit run src/app.py
 - ✅ Add this `README.md` to your root folder
 - ✅ Commit and push to GitHub
 - ✅ Run `pip freeze > requirements.txt` to lock exact versions (optional)
+
 
 
 
