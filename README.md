@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.25%2B-FF4B4B?logo=streamlit)](https://streamlit.io/)
-![License](https://img.shields.io/github/license/22r01a0425/Smart_Career_Coach)
+[![License](https://img.shields.io/github/license/22r01a0425/Smart_Career_Coach)](./LICENSE)
 
 An intelligent AI-powered web app that helps students and job seekers align their resume with the most relevant job roles, suggests missing skills, and recommends courses — all through a clean Streamlit interface.
 
@@ -79,6 +79,7 @@ streamlit run src/app.py
 - ✅ Add this `README.md` to your root folder
 - ✅ Commit and push to GitHub
 - ✅ Run `pip freeze > requirements.txt` to lock exact versions (optional)
+
 
 
 
