@@ -235,7 +235,7 @@ Sincerely,
     if "cover_letter" in st.session_state:
         edited_letter = st.text_area("📄 Generated Cover Letter", st.session_state["cover_letter"], height=300)
         st.download_button("⬇ Download Cover Letter", edited_letter, file_name="cover_letter.txt")
-        st.info("✏️ *Note: This is a sample cover letter. You can edit and download it.*")
+        st.info("⚠️ *Note: This is a sample cover letter. You can edit and download it.*")
 
 
 # --- About Page ---
@@ -250,4 +250,5 @@ elif page == "About":
 
     Built using Streamlit, pandas, and a touch of AI magic.
     """)
+
 
